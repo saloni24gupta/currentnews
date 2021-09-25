@@ -18,7 +18,7 @@ import React, { Component } from 'react'
 export default class App extends Component
  {
   pageSize = 5;
-
+apiKey = process.env.REACT_APP_NEWS_API
   state = {
     progress:0
   }
@@ -39,8 +39,8 @@ export default class App extends Component
       />
 
           <Switch>
-            <Route exact path="/Sports"><News  setProgress={this.setProgress} key="Sports" pageSize={5} country="in" category="Sports" /></Route>
-            <Route exact path="/Entertainment"><News  setProgress={this.setProgress}  key="Entertainment" pageSize={5} country="in" category="Entertainment" /></Route>
+            <Route exact path="/Sports"><News apiKey={this.apiKey} setProgress={this.setProgress} key="Sports" pageSize={5} country="in" category="Sports" /></Route>
+            <Route exact path="/Entertainment"><News apiKey={this.apiKey}  setProgress={this.setProgress}  key="entertainment" pageSize={5} country="in" category="entertainment" /></Route>
             <Route exact path="/Health"><News apiKey={this.apiKey} setProgress={this.setProgress}   key="Health" pageSize={5} country="in" category="Health" /></Route>
             <Route exact path="/Technology"><News  apiKey={this.apiKey}setProgress={this.setProgress}  key="Technology" pageSize={5} country="in" category="Technology" /></Route>
             <Route exact path="/General"><News apiKey={this.apiKey}  setProgress={this.setProgress}  key="General" pageSize={5} country="in" category="general" /></Route>
