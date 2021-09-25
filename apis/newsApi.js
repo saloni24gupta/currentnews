@@ -1,0 +1,3 @@
+const REACT_APP_NEWS_API="02ceb65115d64a8190ca3567b3773afa";
+
+export default REACT_APP_NEWS_API;
