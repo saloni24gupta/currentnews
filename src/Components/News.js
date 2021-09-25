@@ -3,7 +3,7 @@ import NewsItems from './NewsItems'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
 import InfiniteScroll from "react-infinite-scroll-component";
-import REACT_APP_NEWS_API from '../../apis/newsApi';
+import REACT_APP_NEWS_API from '../apis/newsApi';
 
 export class News extends Component {
     static defaultProps = {
