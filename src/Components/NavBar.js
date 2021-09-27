@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const NavBar = (props) => {
         return (
-            <div className="container" >
+            <div className="container my-3" >
                 <div className=" navbar-expand-sm  " style={{color: '#bed5f7'}} >
                     <div className="container-fluid" style={{backgroundColor: '#2b3848', color: '#bed5f7'}}>
                         <Link className="navbar-brand " to="/"></Link>
