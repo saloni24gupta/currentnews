@@ -37,6 +37,7 @@ export class News extends Component {
         let data = await fetch(url);
         this.props.setProgress(30);
         let parsedData = await data.json()
+        console.log(parsedData);
         this.props.setProgress(70);
         if(parsedData?.articles && parsedData?.totalResults) {
             this.setState({
