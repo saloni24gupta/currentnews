@@ -10,7 +10,7 @@ const NavBar = (props) => {
                         <ul className="navbar-nav me-auto mb-2">
                
             <li  className="nav-item"><Link className ="nav-link " style={{color: '#bac5d4'}}  to="/Sports">Sports</Link></li>
-                <li  className="nav-item"><Link className ="nav-link" style={{color: '#bac5d4'}}  to="/entertainment" >entertainment</Link></li>
+                <li  className="nav-item"><Link className ="nav-link" style={{color: '#bac5d4'}}  to="/entertainment" >Entertainment</Link></li>
                 <li  className="nav-item"><Link className ="nav-link" style={{color: '#bac5d4'}}  to="/Health">Health</Link></li>
                 <li  className="nav-item"><Link className ="nav-link" style={{color: '#bac5d4'}}  to="/Technology" >Technology</Link></li>
                 <li  className="nav-item"><Link className ="nav-link" style={{color: '#bac5d4'}}  to="/General" >General</Link></li>
